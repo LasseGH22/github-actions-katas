@@ -62,7 +62,7 @@ jobs:
           name: code
           path: .
       - name: Execute component test
-        run: bash ci/component.test.sh
+        run: bash ci/component-test.sh
 
   Performance-test:
     runs-on: ubuntu-latest
