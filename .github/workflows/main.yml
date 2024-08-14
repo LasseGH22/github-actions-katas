@@ -1,7 +1,7 @@
 name: Main workflow
 on: push
 env:
-  docker_username: ${{ lower(github.actor) }}
+  docker_username: lassegh22
   docker_password: ${{ secrets.GITHUB_TOKEN }}
   commit-sha: ${{ github.sha }}
 jobs:
